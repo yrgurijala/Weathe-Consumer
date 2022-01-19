@@ -6,3 +6,6 @@ Version 0.1
   - Created a Weather Alert model to store data in a local database
   - Made it a RESTFul service
   - Controller accepts the data at http://localhost:8081/weatherAlert/addData
+
+Version 0.2
+  - Used AWS RDS MySQL database instead of local MySQL database
