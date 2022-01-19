@@ -9,3 +9,9 @@ Version 0.1
 
 Version 0.2
   - Used AWS RDS MySQL database instead of local MySQL database
+
+Version 1.0
+  - Established Connection with AWS SQS Queue 
+  - Listens to SQS for any new messages
+  - Used Object Mapper to convert string to WeatherAlert java object
+  - Deletes the message from SQS after its done processing
